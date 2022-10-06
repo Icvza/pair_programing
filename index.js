@@ -106,19 +106,19 @@ class Car{
 
      driveTowork(){
           let oldMilage = this.milage
-          this.milage = this.milage - 33
+          this.milage = this.milage + 33
           return(`old ${oldMilage} | new millage ${this.milage}`)
      }
 
      driveAroundTheWorld() {
           let oldMilage = this.milage
-          this.milage = this.milage - 24000
+          this.milage = this.milage + 24000
           return(`old ${oldMilage} | new millage ${this.milage}`)
      }
 
      runErrands(){
           let oldMilage = this.milage
-          this.milage = this.milage - 30
+          this.milage = this.milage + 30
           return(`old ${oldMilage} | new millage ${this.milage}`)
      }
 }
